@@ -1,0 +1,11 @@
+@mixin btnBgBlue{
+    width: 100%;
+    height: 4rem;
+    border: 0;
+    background-color: $color_action_background;
+    border-radius: 2px;    
+    color: $color_white;
+    font-size: $default-font-size * 1.4;
+    font-weight: bold;
+    cursor: pointer;
+}

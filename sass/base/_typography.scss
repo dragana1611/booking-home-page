@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color_black;
+}
+
+.header {
+  color: $color-white;
+
+  .group-icon {
+    a {
+      color: $color_foreground_inverted;
+      font-size: $default-font-size * 2.4;
+    }
+  }
+
+  .nav-tab__item {
+    font-size: $default-font-size * 1.2;
+    text-align: center;
+  }
+
+  .nav-tab__link {
+    color: $color_foreground_inverted;
+  }
+}
+
+.button-group .button {
+  font-weight: 500 !important;
+  font-size: inherit;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  line-height: inherit;
+
+  i {
+    font-size: $default-font-size * 1.6;
+  }
+}
+
+.form {
+  &__icon--right {
+    font-size: medium;
+    color: rgba($color_action_foreground_inverted, 0.4);
+  }
+
+  &__input--date,
+  &__input--index {
+    font-weight: bold;
+  }
+}
+
+.search,
+.coronavirus {
+  color: $color_foreground;
+}
+
+.coronavirus {
+  font-size: $default-font-size * 1.2;
+
+  &__icon--left {
+    color: $color_callout_foreground;
+  }
+}
+
+.banner {
+  color: $color-white;
+
+  &__text--1 {
+    font-size: $default-font-size * 2;
+    font-weight: bold;
+  }
+}
+
+.card{
+  &__text {
+    font-size: $default-font-size * 1.2;
+    span {
+      color: $color_foreground_alt;
+    }
+  }
+}
+
+.banner-offer{
+  color: $color_foreground;
+  font-size: $default-font-size * 1.4;
+}

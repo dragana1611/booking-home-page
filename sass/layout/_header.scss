@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  background: $color_brand_primary_background;
+  border-bottom: 2px solid $color_action_border;
+
+  &__bar {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    // -ms-flex-align: center;
+    // -webkit-align-items: center;
+    height: 6rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem 1rem;    
+  }
+
+  .group-desktop {
+    display: none;    
+  }
+
+  .group-icon {
+    height: 4rem;
+
+    &__item {
+      display: inline-block;
+      width: 4rem;
+      height: 4rem;
+
+      &:first-child {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .nav-tab {
+    width: 100%;
+    height: 6.5rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem 1rem;
+
+    &__nav {
+      width: 100%;
+      height: 100%;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    &__item {
+      width: auto;
+      height: 3.5rem;
+      border-radius: 2rem;
+      padding: 2px 5px 0 5px;      
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: $color_action_highlighted;
+      }
+
+      &:first-child {
+        background-color: $color_action_highlighted;
+        border: 1px solid $color_white;
+      }
+    }
+
+    &__link {
+      display: inline-block;
+      width: auto;
+      height: 1rem;
+      padding: 0.5rem;      
+    }
+
+    &__icon {
+      display: inline-block;
+      padding-right: 5px;
+
+      svg {
+        fill: white;
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+    }
+  }
+}

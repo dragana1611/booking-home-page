@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icone-booking.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/858dce91ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>
+      Booking.com | Zvanični sajt | Najbolji hoteli, letovi, iznajmljivanje
+      vozila i smeštaji...
+    </title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__bar">
+        <div class="header__main">
+          <div class="header__logo">
+            <a href="#">
+              <img src="./assets/images/logo-booking.jpg" alt="logo" />
+            </a>
+          </div>
+        </div>
+
+        <!-- mobile header nav -->
+        <div class="group-mobile">
+          <div class="group-icon">
+            <div class="group-icon__item">
+              <a href="#" class="button-group">
+                <span class="icon"><i class="fas fa-user-circle"></i></span>
+              </a>
+            </div>
+            <div class="group-icon__item">
+              <a href="#" class="button-group">
+                <span class="icon"><i class="fas fa-bars"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- desktop header nav -->
+        <div class="group-desktop">
+          <div class="group">
+            <div class="group__item group__item--rsd">
+              <button class="button button__light" type="button">
+                <span class=""> RSD </span>
+              </button>
+            </div>
+
+            <div class="group__item group__item--img">
+              <button class="button button__light" type="button">
+                <div class="">
+                  <svg
+                    width="25px"
+                    height="25px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 512 512"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <style type="text/css">
+                      .st0 {
+                        fill: #ed4c5c;
+                      }
+                      .st1 {
+                        fill: #f9f9f9;
+                      }
+                      .st2 {
+                        fill: #2872a0;
+                      }
+                      .st3 {
+                        fill: #ffffff;
+                      }
+                      .st4 {
+                        fill: #ffce31;
+                      }
+                      .st5 {
+                        fill: #428bc1;
+                      }
+                    </style>
+                    <g id="XMLID_2_">
+                      <path
+                        id="XMLID_4_"
+                        class="st0"
+                        d="M256.4,0C144.5,0,50,71.7,14.6,170.9h482.9C462.8,71.7,368.2,0,256.4,0z"
+                      />
+                      <path
+                        id="XMLID_5_"
+                        class="st1"
+                        d="M256.4,512c111.9,0,206.4-70.9,241.8-170.9H14.6C50,441.1,144.5,512,256.4,512z"
+                      />
+                      <path
+                        id="XMLID_6_"
+                        class="st2"
+                        d="M14.6,170.9C5.1,197.7,0.4,226.1,0.4,256s5.5,59.1,14.2,85.1h482.9
+		c9.5-26.8,14.2-55.1,14.2-85.1s-5.5-59.1-14.2-85.1H14.6z"
+                      />
+                      <path
+                        id="XMLID_7_"
+                        class="st0"
+                        d="M115.4,167.8v137.8c0,48,40.2,85.9,89.8,85.9s89.8-38.6,89.8-85.9V167.8H115.4"
+                      />
+                      <path
+                        id="XMLID_8_"
+                        class="st3"
+                        d="M237.5,378.1l-1.6-7.9l-7.1-11.8l2.4-1.6l-1.6-7.9l-6.3-9.5l1.6-0.8l-1.6-7.9l-3.9-8.7l7.1-12.6
+		l3.9,13.4l3.2-5.5l5.5,7.9l1.6-4.7l5.5,2.4l-0.8-10.2l11.8,3.2l-8.7-10.2h0.8l-7.1-13.4l1.6-5.5l4.7,8.7l1.6-3.2l7.1,18.9v-0.8
+		l3.2,7.1l1.6-3.2l7.1,13.4l2.4-7.9l10.2,7.9c0,0-0.8-26-0.8-33.1c1.6-22.1,9.5-67.7,3.2-88.2c-2.4-10.2-22.8-34.7-22.8-34.7
+		s-0.8,29.9-6.3,39.4c-1.6,3.2-17.3,12.6-17.3,12.6l-4.7-1.6l2.4-0.8l-11-11l3.9-22.1l11-16.5l-17.3,0.8l-12.6,3.2l3.2,5.5
+		l-7.9,27.6l-7.9-26.8l3.2-4.7l-12.6-3.9l-17.3-0.8l11,16.5l3.9,22.1l-11,11l2.4,0.8l-7.1,1.6c0,0-15-9.5-17.3-12.6
+		c-4.7-8.7-6.3-39.4-6.3-39.4s-20.5,24.4-22.8,34.7c-6.3,21.3,2.4,67,3.2,88.2c0.8,8.7-0.8,33.1-0.8,33.1l10.2-7.9l2.4,7.9l7.1-13.4
+		l1.6,3.2l3.2-7.1v0l7.1-18.9l1.6,3.2l3.9-8.7l1.6,4.7l-7.1,13.4h0.8l-8.7,11l11.8-3.2V323l5.5-2.4l1.6,4.7l5.5-7.9l3.2,4.7
+		l3.9-13.4l7.1,12.6l-3.9,8.7l-1.6,7.9l1.6,0.8l-6.3,9.5l-1.6,7.9l2.4,1.6l-6.3,12.6l-1.6,7.9L237.5,378.1"
+                      />
+                      <polygon
+                        id="XMLID_9_"
+                        class="st4"
+                        points="154,338.7 155.6,335.6 163.4,331.6 168.2,330 172.1,330 172.9,329.3 167.4,326.9 
+		166.6,326.1 162.7,327.7 159.5,330 165.8,321.4 172.1,308 162.7,314.3 154,329.3 150.8,330.8 142.2,330.8 137.5,330 132.7,333.2 
+		133.5,334 136.7,334 140.6,335.6 147.7,334.8 139.8,337.1 137.5,340.3 137.5,345.8 138.2,345.8 139.8,342.6 143.8,342.6 
+		151.6,336.3 145.3,345.8 144.5,349.7 146.9,356 148.5,355.2 148.5,350.5 152.4,347.4 	"
+                      />
+                      <polygon
+                        id="XMLID_10_"
+                        class="st4"
+                        points="255.6,338.7 254.8,335.6 246.9,331.6 242.2,330 238.3,330 237.5,329.3 243,326.9 
+		243.8,326.1 247.7,327.7 250.9,330 244.6,321.4 238.3,308 247.7,314.3 256.4,329.3 259.5,330.8 268.2,330.8 272.9,330 277.7,333.2 
+		276.9,334 273.7,334 269.8,335.6 262.7,334.8 270.6,337.1 272.9,340.3 272.9,345.8 272.1,345.8 270.6,342.6 266.6,342.6 
+		258.8,336.3 265.1,345.8 265.8,349.7 263.5,356 261.9,355.2 261.9,350.5 258,347.4 	"
+                      />
+                      <path
+                        id="XMLID_11_"
+                        class="st4"
+                        d="M165.8,172.5c-8.7,0.8-7.9,7.1,0,14.2c1.6,1.6,1.6,1.6,2.4,0c0.8-2.4,3.2-3.9,5.5-2.4
+		c0.8,1.6,0.8,2.4,3.9,1.6c0.8,0.8,2.4,1.6,3.2,2.4c-0.8,0-3.9,0.8-9.5,1.6c-3.9,0.8-7.1-0.8-10.2-3.9c0.8,3.9,11,7.1,10.2,7.1
+		c0.8,1.6,0.8,2.4,1.6,2.4c3.2,0.8,7.1-1.6,10.2-0.8c7.9,1.6-5.5-19.7-3.9-20.5C180.8,172.5,168.2,168.6,165.8,172.5"
+                      />
+                      <path
+                        id="XMLID_12_"
+                        class="st4"
+                        d="M235.9,196.1c0.8,0,0.8,0,1.6-2.4c-0.8,0,9.5-2.4,10.2-7.1c-2.4,3.2-6.3,5.5-10.2,3.9
+		c-5.5-0.8-8.7-2.4-9.5-1.6c0.8-0.8,1.6-1.6,3.2-2.4c3.2,0.8,3.2,0,3.9-1.6c1.6-1.6,3.9-0.8,4.7,2.4c0,1.6,0.8,1.6,2.4,0
+		c7.9-7.9,8.7-13.4,0-14.2c-1.6-3.2-13.4,0-12.6,2.4c0,0.8-11.8,22.1-3.9,20.5C228.8,194.6,232.8,196.1,235.9,196.1"
+                      />
+                      <path
+                        id="XMLID_13_"
+                        class="st0"
+                        d="M167.4,226.9v62.2c0,18.9,17.3,33.9,37.8,33.9s37.8-15.8,37.8-33.9v-62.2H167.4"
+                      />
+                      <rect
+                        id="XMLID_14_"
+                        x="195"
+                        y="215.8"
+                        class="st3"
+                        width="21.3"
+                        height="128.4"
+                      />
+                      <rect
+                        id="XMLID_15_"
+                        x="146.1"
+                        y="258.4"
+                        class="st3"
+                        width="117.4"
+                        height="21.3"
+                      />
+                      <polygon
+                        id="XMLID_16_"
+                        class="st3"
+                        points="187.9,242.6 180,250.5 182.4,242.6 180,234.7 	"
+                      />
+                      <polygon
+                        id="XMLID_17_"
+                        class="st3"
+                        points="187.9,296.2 180,304.8 182.4,296.2 180,287.5 	"
+                      />
+                      <polygon
+                        id="XMLID_18_"
+                        class="st3"
+                        points="222.5,242.6 231.2,250.5 228.8,242.6 231.2,234.7 	"
+                      />
+                      <polygon
+                        id="XMLID_19_"
+                        class="st3"
+                        points="222.5,296.2 231.2,304.8 228.8,296.2 231.2,287.5 	"
+                      />
+                      <rect
+                        id="XMLID_20_"
+                        x="196.5"
+                        y="82.7"
+                        class="st5"
+                        width="17.3"
+                        height="17.3"
+                      />
+                      <polygon
+                        id="XMLID_21_"
+                        class="st4"
+                        points="197.3,71.7 198.9,72.5 201.3,71.7 203.6,71.7 203.6,81.9 196.5,81.9 196.5,84.3 
+		196.5,85.1 205.2,85.1 213.9,85.1 213.9,84.3 213.9,81.9 206.8,81.9 206.8,71.7 209.1,71.7 211.5,72.5 213.1,71.7 214.6,70.1 
+		213.1,68.5 211.5,66.2 209.1,68.5 206.8,68.5 206.8,64.6 208.3,63 206.8,61.4 205.2,59.9 203.6,61.4 202,63 203.6,64.6 203.6,68.5 
+		201.3,68.5 198.9,66.2 197.3,68.5 195.7,70.1 	"
+                      />
+                      <path
+                        id="XMLID_22_"
+                        class="st4"
+                        d="M260.3,105.6c-11-6.3-18.1-7.9-20.5-3.2c0,0,0,0.8-0.8,0.8c-13.4-7.1-23.6-7.9-33.9-3.2
+		c-10.2-3.9-19.7-3.2-33.9,3.2c0-0.8,0-0.8-0.8-0.8c-2.4-3.9-9.5-3.2-20.5,3.2c-11,6.3-21.3,14.2-18.9,18.1
+		c0.8,6.3,3.9,11,10.2,17.3c7.1,3.2,20.5,3.9,34.7,3.2c18.9-0.8,38.6-0.8,57.5,0c14.2,0.8,28.4,0,34.7-3.2c6.3-6.3,9.5-11,10.2-17.3
+		C282.4,121.3,270.6,112.6,260.3,105.6"
+                      />
+                      <path
+                        id="XMLID_23_"
+                        class="st0"
+                        d="M217,130c7.1-6.3,11-11.8,14.2-18.1c-6.3-1.6-11.8-2.4-17.3-1.6
+		C215.4,116.6,216.2,123.7,217,130"
+                      />
+                      <path
+                        id="XMLID_24_"
+                        class="st0"
+                        d="M193.4,130c0.8-7.1,1.6-13.4,3.2-20.5c-5.5-0.8-11,0-17.3,1.6
+		C181.6,117.4,186.3,123.7,193.4,130"
+                      />
+                      <path
+                        id="XMLID_25_"
+                        class="st0"
+                        d="M261.9,117.4c-0.8-0.8-2.4-2.4-5.5-3.2c-2.4-0.8-5.5-1.6-7.1-1.6c-0.8,7.1-3.2,13.4-9.5,20.5
+		c2.4,0,4.7-0.8,7.1-1.6c7.1-3.2,11-7.9,14.2-11C262.7,119.7,262.7,118.9,261.9,117.4"
+                      />
+                      <path
+                        id="XMLID_26_"
+                        class="st0"
+                        d="M161.1,111.9c-1.6,0-3.9,0.8-7.1,1.6c-3.9,1.6-7.1,5.5-5.5,6.3c3.2,3.2,7.9,7.1,14.2,11
+		c1.6,0.8,3.9,0.8,7.1,1.6C164.2,125.2,161.9,119.7,161.1,111.9"
+                      />
+                      <rect
+                        id="XMLID_27_"
+                        x="142.2"
+                        y="141"
+                        class="st4"
+                        width="126"
+                        height="17.3"
+                      />
+                      <polygon
+                        id="XMLID_28_"
+                        class="st5"
+                        points="142.2,144.1 138.2,150.4 143,154.4 148.5,148.1 	"
+                      />
+                      <polygon
+                        id="XMLID_29_"
+                        class="st5"
+                        points="268.2,144.1 261.9,148.1 267.4,154.4 272.1,150.4 	"
+                      />
+                      <polygon
+                        id="XMLID_30_"
+                        class="st5"
+                        points="205.2,140.2 198.1,145.7 205.2,151.2 212.3,145.7 	"
+                      />
+                      <polygon
+                        id="XMLID_31_"
+                        class="st0"
+                        points="173.7,152 180,145.7 172.9,141.8 166.6,146.5 	"
+                      />
+                      <polygon
+                        id="XMLID_32_"
+                        class="st0"
+                        points="236.7,152 243.8,146.5 237.5,141.8 231.2,145.7 	"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </button>
+            </div>
+
+            <div class="group__item group__item--question">
+              <a href="#" class="button button__light button__light--link">
+                <span class="button__icon">
+                  <i class="fa-regular fa-circle-question"></i>
+                </span>
+              </a>
+            </div>
+
+            <div class="group__item">
+              <a href="#" class="button button__light button__light--reg">
+                <span class="button__text"> Registrujte svoj objekat </span>
+              </a>
+            </div>
+            <div class="group__item">
+              <a href="#" class="button button__link">
+                <span class="button__text"> Registrujte se </span>
+              </a>
+            </div>
+            <div class="group__item">
+              <a href="#" class="button button__link">
+                <span class="button__text"> Ulogujte se </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="nav-tab">
+        <ul class="nav-tab__nav">
+          <li class="nav-tab__item">
+            <a class="nav-tab__link nav-tab__link--selected" href="#">
+              <span class="nav-icon nav-tab__icon"
+                ><i class="fas fa-bed"></i> </span
+              ><span class="nav-tab__text"> Boravak </span>
+            </a>
+          </li>
+          <li class="nav-tab__item">
+            <a class="nav-tab__link" href="#">
+              <span class="nav-icon nav-tab__icon"
+                ><i class="fas fa-plane"></i>
+              </span>
+              <span class="nav-tab__text"> Letovi </span>
+            </a>
+          </li>
+          <li class="nav-tab__item">
+            <a class="nav-tab__link" href="#">
+              <span class="nav-icon nav-tab__icon"
+                ><i class="fas fa-car-alt"></i>
+              </span>
+              <span class="nav-tab__text"> Iznajmljivanje automobila </span>
+            </a>
+          </li>
+          <li class="nav-tab__item">
+            <a class="nav-tab__link" href="#">
+              <span class="nav-icon nav-tab__icon"
+                ><svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  role="presentation"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M13.5 3a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM15 3a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM21 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm-9-3.75a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm10.066 1.277a7.5 7.5 0 0 1-3.077 2.05.75.75 0 0 0 .498 1.415 9 9 0 0 0 3.693-2.46.75.75 0 1 0-1.114-1.005zm1.798-6.466c.177.922.183 1.869.015 2.792a.75.75 0 1 0 1.476.268c.2-1.106.194-2.24-.019-3.344a.75.75 0 1 0-1.472.284zm-5.337-5.784a7.5 7.5 0 0 1 3.54 2.196.75.75 0 0 0 1.113-1.004 9.002 9.002 0 0 0-4.247-2.636.75.75 0 1 0-.406 1.444zM6.434 6.223a7.5 7.5 0 0 1 3.539-2.196.75.75 0 1 0-.406-1.444A9.001 9.001 0 0 0 5.32 5.219a.75.75 0 0 0 1.114 1.004zM4.636 12.69a7.602 7.602 0 0 1 0-2.878.75.75 0 1 0-1.472-.284 9.102 9.102 0 0 0 0 3.446.75.75 0 0 0 1.472-.284zm4.876 5.639a7.517 7.517 0 0 1-3.035-2.005.75.75 0 0 0-1.106 1.014 9.017 9.017 0 0 0 3.641 2.405.75.75 0 1 0 .5-1.414zM7.31 21.872A1.5 1.5 0 0 0 8.672 24h6.656a1.5 1.5 0 0 0 1.362-2.128l-3.314-8.217c-.361-.785-1.252-1.114-2.005-.767a1.5 1.5 0 0 0-.733.734l-3.343 8.283zm1.377.595l3.328-8.25-.015.033 3.313 8.217.015.033H8.672z"
+                  ></path>
+                </svg>
+              </span>
+              <span class="nav-tab__text"> Atrakcije </span>
+            </a>
+          </li>
+          <li class="nav-tab__item">
+            <a class="nav-tab__link" href="#">
+              <span class="nav-icon nav-tab__icon">
+                <i class="fa-solid fa-taxi"></i>
+              </span>
+              <span class="nav-tab__text"> Taksi od/do aerodroma </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- search start-->
+      <div class="search">
+        <div class="search__container">
+          <div class="search__text">
+            <h1 class="heading-secondary">Pretražite</h1>
+            <label for="input_destination">
+              Destinacije, objekti, čak i adrese
+            </label>
+          </div>
+          <div class="search__form">
+            <form class="form">
+              <div class="form__group-box">
+                <div class="form__group">
+                  <div class="form__icon form__icon--left">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <div class="form__input">
+                    <input
+                      type="text"
+                      name="lokacija"
+                      id="input_destination"
+                      class="form__input form__input--search"
+                      value="U okolini trenutne lokacije"
+                      required
+                    />
+                  </div>
+                  <div class="form__icon form__icon--right">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__group-box form__group-box--date">
+                <div class="form__group-container">
+                  <div class="form__group-date">
+                    <label for="prijavljivanje" class="form__label"
+                      >Datum prijavljivanja</label
+                    >
+                  </div>
+                  <div class="form__group-date">
+                    <span>
+                      <input
+                        type="text"
+                        id="prijavljivanje"
+                        value="01.08.2022."
+                        class="form__input form__input--date"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div class="form__group-container">
+                  <div class="form__group-date">
+                    <label for="odjavljivanje" class="form__label"
+                      >Datum odjavljivanja</label
+                    >
+                  </div>
+                  <div class="form__group-date">
+                    <span>
+                      <input
+                        type="text"
+                        id="odjavljivanje"
+                        value="19.08.2022."
+                        class="form__input form__input--date"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__group-box">
+                <div class="form__group">
+                  <div class="form__group-section">
+                    <div class="form__group-index">
+                      <div class="form__group-details">
+                        <label for="odrasli" class="form__label">Odrasli</label>
+                      </div>
+                      <div class="form__group-details">
+                        <span>
+                          <input
+                            type="text"
+                            id="odrasli"
+                            value="2"
+                            class="form__input form__input--index"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div class="form__group-index">
+                      <div class="form__group-details">
+                        <label for="deca" class="form__label">Deca</label>
+                      </div>
+                      <div class="form__group-details">
+                        <span>
+                          <input
+                            type="text"
+                            id="deca"
+                            value="0"
+                            class="form__input form__input--index"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div class="form__group-index">
+                      <div class="form__group-details">
+                        <label for="jedinica" class="form__label"
+                          >Jedinica</label
+                        >
+                      </div>
+                      <div class="form__group-details">
+                        <span>
+                          <input
+                            type="text"
+                            id="jedinica"
+                            value="1"
+                            class="form__input form__input--index"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__group-box">
+                <div class="form__group">
+                  <div class="form__checkbox-group">
+                    <input
+                      type="checkbox"
+                      class="form__checkbox-input"
+                      id="tip"
+                      name="tip"
+                    />
+                    <label for="tip" class="form__checkbox-label">
+                      <span class="form__checkbox-button"></span>
+                      Putujem poslovno
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form__group-box">
+                <div class="form__group">
+                  <button class="button--search">Traži</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- search end -->
+
+          <!-- coronavirus banner start -->
+          <div class="coronavirus">
+            <a class="coronavirus__link">
+              <div class="coronavirus__container">
+                <span class="coronavirus__icon coronavirus__icon--left"
+                  ><i class="fa-solid fa-circle-info"></i>
+                </span>
+
+                <div>
+                  Pročitajte najnovije preporuke za putovanja koje se odnose na
+                  COVID-19
+                </div>
+
+                <span class="coronavirus__icon coronavirus__icon--right"
+                  ><i class="fa-solid fa-angle-right"></i
+                ></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- coronavirus banner end -->
+
+      <!-- program lojalnosti bannner start -->
+      <div class="banner">
+        <div class="banner__container">
+          <div class="banner__genius-box">
+            <div class="banner__genius">
+              <div class="banner__text banner__text--1">
+                Uštedite 10% ili više
+                <br />
+                u objektima koji učestvuju u programu
+              </div>
+
+              <a href="#" class="banner__link">
+                <span> Registrujte se </span>
+              </a>
+              <div class="banner__text banner__text--2">
+                <div>Program lojalnosti kompanije Booking.com</div>
+                <span
+                  ><img
+                    src="./assets/images/genius.png"
+                    alt="genius"
+                    height="10px"
+                /></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- program lojalnosti bannner end -->
+
+      <!-- card start -->
+      <div class="card">
+        <div class="card__content">
+          <a href="#" class="card__link">
+            <div class="card__region">
+              <div class="card__header">
+                <h1>Vase nedavne pretrage</h1>
+              </div>
+              <div class="card__recent-searches">
+                <div class="card__img">
+                  <img src="./assets/images/amsterdam64.jpg" alt="amsterdam" />
+                </div>
+                <div class="card__text">
+                  <h2>Amsterdam</h2>
+                  <span class="card__subtitle">21.avg-24.avg,2osobe</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- banneri sezonske ponude + registracija start-->
+
+      <div class="banner-offer">
+        <div class="banner-offer banner-offer--image">
+          <div class="banner-offer__image-container">
+            <img
+              class="banner-offer__image"
+              alt="summer"
+              src="./assets/images/summer.jpg"
+            />
+          </div>
+          <div class="banner-offer__content">
+            <div class="banner-offer__title">
+              <h3>Uštedite najmanje 15%</h3>
+              <button type="button" class="button button--xmark">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="banner-offer__text">
+              <p>
+                Leto vas zove: otkrijte destinacije iz snova uz Sezonske ponude
+              </p>
+            </div>
+            <div class="banner-offer__button">
+              <a class="button button--white" href="#">
+                <span class="button__text">Istražite ponude</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-offer">
+        <div class="banner-offer banner-offer--image">
+          <div class="banner-offer__image-container">
+            <img
+              class="banner-offer__image"
+              alt="summer"
+              src="./assets/images/smestaj.png"
+            />
+          </div>
+          <div class="banner-offer__content">
+            <div class="banner-offer__title">
+              <h3>Registrujte svoj objekat na Booking.com veb sajtu</h3>
+              <button type="button" class="button button--xmark">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="banner-offer__text">
+              <p>Ostvarite laku zaradu dok putujete</p>
+            </div>
+            <div class="banner-offer__button">
+              <a class="button button--white" href="#">
+                <span class="button__text">Saznajte više</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner sezonske ponude + registracija end-->
+
+      <!-- destinacije start -->
+      <div class="destination">
+        <div class="destination__text">Još destinacija</div>
+        <div class="carousel">
+          <ul class="carousel__inner">
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/beograd.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Beograd</h3>
+                  <p class="card__subtitle">3&nbsp;362 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/ns.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Novi Sad</h3>
+                  <p class="card__subtitle">1&nbsp;303 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/podgorica.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Podgorica</h3>
+                  <p class="card__subtitle">460 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/zlatibor.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Zlatibor</h3>
+                  <p class="card__subtitle">1&nbsp;602 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/skoplje.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Skoplje</h3>
+                  <p class="card__subtitle">846 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/sarajevo.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Sarajevo</h3>
+                  <p class="card__subtitle">2&nbsp;300 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/subotica.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Subotica</h3>
+                  <p class="card__subtitle">153 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="card card--media">
+                <div class="card__image-container">
+                  <img
+                    class="card__image"
+                    alt=""
+                    src="./assets/images/budimpesta.png"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Budimpešta</h3>
+                  <p class="card__subtitle">6&nbsp;252 objekata</p>
+                </div>
+              </a>
+            </li>
+            <li class="carousel__item">
+              <a href="#" class="destination__more">
+                <span class="destination__more-text">Još destinacija</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- destinacije start -->
+
+      <!-- banner rezervacije start-->
+
+      <div class="banner-offer">
+        <div class="banner-offer banner-offer--image">
+          <div class="banner-offer__image-container">
+            <img
+              class="banner-offer__image banner-offer__image--check"
+              alt="checkmark"
+              src="./assets/images/check.png"
+            />
+          </div>
+          <div class="banner-offer__content">
+            <div class="banner-offer__title">
+              <h3>Rezervišite sada, PLATITE U OBJEKTU</h3>
+            </div>
+            <div class="banner-offer__text">
+              <p>BESPLATNO otkazivanje za većinu soba</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-offer">
+        <div class="banner-offer banner-offer--image">
+          <div class="banner-offer__image-container">
+            <img
+              class="banner-offer__image banner-offer__image--check"
+              alt="checkmark"
+              src="./assets/images/check.png"
+            />
+          </div>
+          <div class="banner-offer__content">
+            <div class="banner-offer__title">
+              <h3>2&nbsp;563&nbsp;380 objekat u 226 država</h3>
+            </div>
+            <div class="banner-offer__text">
+              <p>Hotela, pansiona, motela i još mnogo toga…</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner rezervacije end-->
+
+      <!-- servisi start -->
+      <div class="service">
+        <ul class="service__list">
+          <li class="service__item">
+            <a class="service__link">
+              <div class="service__icon">
+                <span><i class="fas fa-car"></i></span>
+              </div>
+              <div class="service__content">
+                <div class="service__title">
+                  <h3>Iznajmite automobil</h3>
+                </div>
+                <div class="service__text">
+                  <p>Stotine automobila i non-stop korisnička podrška</p>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li class="service__item">
+            <a class="service__link">
+              <div class="service__icon">
+                <span><i class="fas fa-taxi"></i></span>
+              </div>
+              <div class="service__content">
+                <div class="service__text">
+                  <h3>Rezervišite taxi od aerodroma</h3>
+                </div>
+                <div class="service__text">
+                  <p>Vozač će vas čekati i odvesti do smeštaja</p>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li class="service__item">
+            <a class="service__link">
+              <div class="service__icon">
+                <span><i class="fas fa-plane"></i></span>
+              </div>
+              <div class="service__content">
+                <div class="service__title">
+                  <h3>Rezervišite let</h3>
+                </div>
+                <div class="service__text">
+                  <p>Uporedite hiljade letova, i to bez skrivenih troškova</p>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li class="service__item">
+            <a class="service__link">
+              <div class="service__icon">
+                <span><i class="fas fa-horse"></i></span>
+              </div>
+
+              <div class="service__content">
+                <div class="service__title">
+                  <h3>Pronađite aktivnosti</h3>
+                </div>
+                <div class="service__text">
+                  <p>
+                    Trenutna potvrda, digitalne karte i proverene recenzije
+                    korisnika
+                  </p>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- servisi end -->
+
+      <!-- forma-offer start -->
+      <div class="signup">
+        <div class="signup__container">
+          <div class="signup__header-container">
+            <h2 class="signup__title">
+              Prijavite se i slaćemo vam ponude pravo u prijemno sanduče
+            </h2>
+          </div>
+          <div class="signup__form-container">
+            <form class="signupForm">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Unesite adresu e-pošte"
+              />
+              <div class="signup__form-control">
+                <a class="button">
+                  <span class="button__text"> Prijavite se </span>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- forma-offer end -->
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <a href="#" class="footer-banner">
+        <div class="app-icon">
+          <img src="./assets/images/booking.png" alt="Booking" />
+        </div>
+        <div class="app-info">
+          <div class="footer-text">Preuzmite BESPLATNU aplikaciju</div>
+          <div class="app-rating">
+            <div class="app-rating-stars">
+              <img src="./assets/images/5-star-rating.png" alt="" />
+            </div>
+          </div>
+          <div class="app-sub">
+            <div class="footer-text">
+              Pretražujte, rezervišite i upravljajte svojim putovanjima u
+              aplikaciji
+            </div>
+          </div>
+        </div>
+        <div class="app-get">
+          <button class="footer-button" type="button">
+            <span class="footer-button__text"> Instaliraj </span>
+          </button>
+        </div>
+      </a>
+
+      <!-- footer join -->
+      <div class="footer__join">
+        <a class="button" href="#">
+          <span class="button__text"> Dodajte svoj objekat </span>
+        </a>
+      </div>
+      <div class="footer__legal">
+        <div class="footer__link-box">
+          <a class="footer__link" href="#">Desktop verzija</a>
+          <a class="footer__link" href="#">Uslovi i odredbe</a>
+          <a class="footer__link" href="#">Kako radimo</a>
+          <a class="footer__link" href="#">Privatnost i kolačići</a>
+          <a class="footer__link" href="#">O Booking.com-u</a>
+        </div>
+        <div class="footer__copyright">
+          Autorska prava © 1996-2022 Booking.com™. Sva prava zadržana.
+        </div>
+        <div class="footer__reference">
+          Vaš referentni broj je:
+          <strong class="">C3CB904</strong>
+        </div>
+        <div class="footer__map">
+          <a href="#" class="footer__link">Mapa sajta</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

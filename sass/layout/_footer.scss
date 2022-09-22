@@ -1,0 +1,47 @@
+.footer {
+  width: 100%;
+  margin-top: 1rem;
+  background: $color_brand_primary_background;
+  color: $color-white;
+
+  a {
+    color: $color-white;
+  }
+
+  &__join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 2px solid $color_action_border;
+  }
+
+  .button {
+    text-align: center;
+    color: $color_action_foreground;    
+    border: 1px solid $color_action_foreground;
+    padding: 0.5rem;
+    background-color: $color_background_elevation_one;
+    font-size: $default-font-size * 1.4;
+  }
+
+  &__legal {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  &__link {
+    text-decoration: underline;
+
+    &:not(:last-child){
+      margin-right: 1rem;
+    }
+  }
+}
+
+.footer-banner {
+  display: none;
+}
